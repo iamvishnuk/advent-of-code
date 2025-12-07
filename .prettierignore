@@ -1,0 +1,24 @@
+# Ignore commonly ignored Node.js files and directories
+node_modules/
+npm-debug.log
+.npm/
+package-lock.json
+
+# Ignore build artifacts
+build/
+dist/
+.next/ # For Next.js projects
+coverage/
+
+# Ignore cache directories
+.eslintcache
+.prettiercache
+.stylelintcache
+
+# Ignore test-related files
+junit.xml
+lcov.info
+
+# Ignore specific file types
+**/*.min.js # Ignore all minified JavaScript files
+**/*.map # Ignore all source map files
