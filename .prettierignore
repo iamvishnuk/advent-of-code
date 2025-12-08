@@ -22,3 +22,6 @@ lcov.info
 # Ignore specific file types
 **/*.min.js # Ignore all minified JavaScript files
 **/*.map # Ignore all source map files
+
+# Igore all Text fiels
+*.txt
